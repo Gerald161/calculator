@@ -54,3 +54,43 @@ button:active{
 .operator-btn:active{
     background-color: hsl(35, 100%, 75%);
 }
+@media (max-width: 768px) {
+    #Calculator {
+      max-width: 400px;
+    }
+    #display {
+      font-size: 4rem;
+    }
+    button {
+      width: 80px;
+      height: 80px;
+      font-size: 1.8rem;
+    }
+  }
+  @media (max-width: 480px) {
+    #Calculator {
+      max-width: 300px;
+    }
+    #display {
+      font-size: 3rem;
+    }
+    button {
+      width: 60px;
+      height: 60px;
+      font-size: 1.5rem;
+    }
+  }
+  @media (max-width: 320px) {
+    #Calculator {
+      max-width: 250px;
+    }
+    #display {
+      font-size: 2.5rem;
+    }
+    button {
+      width: 50px;
+      height: 50px;
+      font-size: 1.2rem;
+    }
+  }
+  
